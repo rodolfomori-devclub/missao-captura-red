@@ -23,5 +23,5 @@ jobs:
        run: aws s3 sync ./ s3://www.rodolfomori.com/missao-captura-red/
 
      - name: Invalidate Cloudfront distribution and wait for completion
-       run: aws cloudfront create-invalidation --distribution-id=${{ secrets.DISTRIBUTION_ID }} --paths /*
+       run: aws cloudfront create-invalidation --distribution-id=${{ secrets.DISTRIBUTION_ID }} --paths /missao-captura-red/*
     
