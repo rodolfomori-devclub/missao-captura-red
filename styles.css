@@ -92,7 +92,12 @@ body {
     margin-right: 10px;
     background: #CFFF00;
 }
-
+.p-inscreva-se{
+    font-family:'Sora-Bold';
+    padding-bottom: 8px;
+    font-size: 13px;
+    text-align: center;
+}
 ._submit {
     transition: 1s;
 }
@@ -660,7 +665,7 @@ input {
  #_form_39_ button[type="submit"] { padding:20px; font-size:1.5em; }
  #_form_39_ ._inline-style { margin:20px 0 0 !important; }
  }
- #_form_39_ { position:relative; text-align:left; margin:25px auto 0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:transparent !important; border:0px solid #b0b0b0 !important; max-width:500px; -moz-border-radius:0px !important; -webkit-border-radius:0px !important; border-radius:0px !important; color:#fff !important; }
+ #_form_39_ { position:relative; text-align:left; margin:0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:transparent !important; border:0px solid #b0b0b0 !important; max-width:500px; -moz-border-radius:0px !important; -webkit-border-radius:0px !important; border-radius:0px !important; color:#fff !important; }
  #_form_39_._inline-form,#_form_39_._inline-form ._form-content,#_form_39_._inline-form input,#_form_39_._inline-form ._submit { font-family:"Montserrat", sans-serif; }
  #_form_39_ ._form-title { font-size:22px; line-height:22px; font-weight:600; margin-bottom:0; }
  #_form_39_:before,#_form_39_:after { content:" "; display:table; }
